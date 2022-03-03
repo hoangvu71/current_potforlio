@@ -32,7 +32,7 @@ body {font-family: 'Open Sans', sans-serif;}
   float: right;
   font-size: 4em;
   font-weight: bold;
-  border: 1px solid black;
+  margin-bottom: 100vh;
 
 }
 
@@ -45,6 +45,9 @@ body {font-family: 'Open Sans', sans-serif;}
 
 /* ************************* BOARD ************************ */
 
+.modal_container{
+  text-align: center;
+}
 .movable {
   width: 5vw;
   height: 5vw;
@@ -102,16 +105,14 @@ background: radial-gradient(circle, rgb(12, 12, 85) 65%, rgba(246,246,246,1) 67%
   padding: 1.4em 3.5em;
   background: #bb8a5a;
   color: rgb(240, 240, 240);
-  margin-right:2em
+  margin-top:1em
 }
 
 .reset_board:hover{
   background-color: rgb(97, 96, 96);
 }
 
-.modal_container{
-  display:flex;
-}
+
 
 .board{
   margin: 0 auto;
@@ -140,6 +141,12 @@ background: radial-gradient(circle, rgb(12, 12, 85) 65%, rgba(246,246,246,1) 67%
 
 .quote{
   font-size: 1.3em;
+  text-align: center;
+  margin: 2em;
+}
+
+.skills{
+  font-size: 1.2em;
   text-align: center;
   margin: 2em;
 }

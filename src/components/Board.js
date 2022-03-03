@@ -283,6 +283,7 @@ class Board extends React.Component {
             <div className="modal_container">
                 <div className="board">{this.createSkeleton()}</div>
                 <button onClick={this.resetSkeleton} className="reset_board">RESET BOARD</button>
+
             </div>
             
         )
