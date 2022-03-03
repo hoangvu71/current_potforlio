@@ -32,11 +32,13 @@ body {font-family: 'Open Sans', sans-serif;}
   float: right;
   font-size: 4em;
   font-weight: bold;
+  border: 1px solid black;
+
 }
 
 .close:hover,
 .close:focus {
-  color: #000;
+  color: rgb(197, 196, 196);
   text-decoration: none;
   cursor: pointer;
 }
@@ -47,6 +49,9 @@ body {font-family: 'Open Sans', sans-serif;}
   width: 5vw;
   height: 5vw;
   font-size: 0;
+  border: none;
+  background-color: #6b5858;
+  
 }
 
 .not_movable {
@@ -56,42 +61,48 @@ body {font-family: 'Open Sans', sans-serif;}
 }
 
 .red_checker {
-  background-color: rgb(231, 97, 97);
+  background: rgb(151,35,63);
+background: radial-gradient(circle, rgba(151,35,63,1) 65%, rgba(246,246,246,1) 67%, rgba(107,88,88,1) 75%);
 }
 
 .blue_checker {
-  background-color:  rgb(95, 95, 238);
+  background: rgb(95,95,238);
+background: radial-gradient(circle, rgba(95,95,238,1) 65%, rgba(246,246,246,1) 67%, rgba(107,88,88,1) 75%);
 }
 
 .red_king_checker {
-  background-color: red;
+  background: rgb(78, 11, 27);
+background: radial-gradient(circle, rgb(78, 11, 27) 65%, rgba(246,246,246,1) 67%, rgba(107,88,88,1) 75%);
 }
 
 .blue_king_checker {
-  background-color: rgb(0, 0, 0);
+  background:  rgb(12, 12, 85) ;
+background: radial-gradient(circle, rgb(12, 12, 85) 65%, rgba(246,246,246,1) 67%, rgba(107,88,88,1) 75%);
 }
 
 .red_checker:hover, .blue_checker:hover{
-  opacity: 0.3;
+  opacity: 0.9;
 }
 
 .red_chosen {
-  background-color: red;
+  opacity: 0.3;
 }
 
 .neighbor_chosens {
-  background-color: rgb(95, 95, 238, 0.5);
+  background-color: hsl(0, 11%, 51%);
+
 }
 
 .reset_board{
   height: fit-content;
   text-align: center;
-  font-size: 1.9em;
+  font-size: 1em;
   border-radius: 1.9em;
   border: none;
   padding: 1.4em 3.5em;
   background: #bb8a5a;
   color: rgb(240, 240, 240);
+  margin-right:2em
 }
 
 .reset_board:hover{
@@ -115,7 +126,7 @@ body {font-family: 'Open Sans', sans-serif;}
 #myBtn{
   display: flex;
   margin: 0 auto;
-  font-size: 1.9em;
+  font-size: 1em;
   border-radius: 1.9em;
   border: none;
   padding: 1.4em 3.5em;
@@ -127,12 +138,8 @@ body {font-family: 'Open Sans', sans-serif;}
   opacity: 0.8;
 }
 
-button{
-  opacity: 0.95;
-}
-
 .quote{
-  font-size: 3em;
+  font-size: 1.3em;
   text-align: center;
   margin: 2em;
 }

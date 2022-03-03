@@ -53,7 +53,7 @@ class App extends React.Component {
 
           {/* <!-- Modal content --> */}
           <div className="modal-content">
-            <span ref={this.span} className="close">  &times;</span>
+            <span ref={this.span} className="close">&times;</span>
             {/* Checkers Board */}
             <Board/>
 
