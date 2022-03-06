@@ -39,6 +39,7 @@ class App extends React.Component {
     return (
       <div className="main_container" ref={this.main_container}>
         <div className="name">Devin Ong - Software Developer</div>
+        <div className="skills">HTML, CSS, JAVASCRIPT, PYTHON</div>
         <div className="quote">"Give me a lever long enough and I will move the world" - Archimedes</div>
         <div className="quote">Hi, I am Devin. I am a learner, a Software Developer and I hope my knowledge and your creativity can be the lever into great things.</div>
         <div className="quote">Meanwhile, click below to play a game with me. Click <a href="https://winning-moves.com/images/kingmerulesv2.pdf">here</a> for the rules.</div>
